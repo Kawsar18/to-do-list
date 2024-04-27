@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div
+      class="flex justify-center items-center h-screen bg-gradient-to-br from-cyan-300 via-pink-300 to-purple-300 font-bold">
+      <div class="bg-white p-[2vh] rounded-[2vh]">
+        <h2 class="text-lg">To-Do List</h2>
+        <div class="bg-gray-300 rounded-full p-[1vh] my-2">
+          <input
+            id="input"
+            type="text"
+            placeholder="Add your text"
+            class="bg-transparent outline-none flex-1" />
+          <button
+            id="btn"
+            type="button"
+            class="py-[1vh] px-[2vh] bg-blue-500 rounded-full text-white hover:bg-blue-600 hover:shadow hover:shadow-cyan-400 active:bg-blue-700 active:shadow-lg active:shadow-cyan-400">
+            Add
+          </button>
+          </div>
+        <ul id="list">
+        </ul>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
